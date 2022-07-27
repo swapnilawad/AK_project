@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(27 38 72 / 50%), rgb(17 54 54 / 40%)),
+      url(/img/bed_img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+  }
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .navbar ul li:hover {
+
+    text-decoration: underline;
+    
+  }
+ 
+  .contetnt {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+  }
+  .heading{
+    margin-bottom: 50px;
+  }
+  .heading h1{
+    font-size: 70px; 
+     margin-top: 50px;
+  }
+ 
+ 
+  .gallery{
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .bed-img:hover{
+    
+  
+  
+    cursor: pointer;
+    
+  
+  }
+  .bed-img:hover img {
+    
+  width: 250px;
+  height: 250px;
+  transition: 1s;
+    
+  
+  }
+  .bed-img img {
+    width: 225px;
+    height: 225px;
+  }
+  
+  button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #15103dd3;
+    
+    background-color: rgba(0, 0, 0, 0.507);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    color: white;
+  }
+  span {
+    background: #ffffffd3;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+  }
+  button:hover span {
+    width: 100%;
+  }
+  button:hover {
+    border: none;
+  }
+  
+  
